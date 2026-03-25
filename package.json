@@ -1,0 +1,47 @@
+{
+  "name": "vali-valid-vue",
+  "version": "1.0.0",
+  "description": "Vue 3 composable for vali-valid — useValiValid with reactive state, async validation, trigger, clearErrors, and full TypeScript support",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.mjs",
+  "types": "dist/esm/index.d.mts",
+  "exports": {
+    ".": {
+      "types": "./dist/esm/index.d.mts",
+      "import": "./dist/esm/index.mjs",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["vue", "vue3", "vali-valid", "validation", "form-validation", "composable", "typescript"],
+  "author": "Felipe Rafael Montenegro Morriberon <teabajo_ubf@hotmail.com>",
+  "license": "MIT",
+  "homepage": "https://vali-valid.dev/vue",
+  "bugs": {
+    "url": "https://github.com/UBF21/Vali-Valid-Vue/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UBF21/Vali-Valid-Vue.git"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "vue": ">=3.0.0",
+    "vali-valid": ">=3.1.0"
+  },
+  "devDependencies": {
+    "vue": "^3.4.0",
+    "@vue/test-utils": "^2.4.0",
+    "vali-valid": "^3.1.0",
+    "vitest": "^2.1.9",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.4",
+    "jsdom": "^25.0.0"
+  }
+}
