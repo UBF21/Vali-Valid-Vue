@@ -1,6 +1,6 @@
 {
   "name": "vali-valid-vue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue 3 composable for vali-valid — useValiValid with reactive state, async validation, trigger, clearErrors, and full TypeScript support",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.mjs",
@@ -33,7 +33,7 @@
   ],
   "author": "Felipe Rafael Montenegro Morriberon <teabajo_ubf@hotmail.com>",
   "license": "MIT",
-  "homepage": "https://vali-valid.dev/vue",
+  "homepage": "https://vali-valid-docs.netlify.app/vue",
   "bugs": {
     "url": "https://github.com/UBF21/Vali-Valid-Vue/issues"
   },
