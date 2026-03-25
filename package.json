@@ -1,6 +1,6 @@
 {
   "name": "vali-valid-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue 3 composable for vali-valid — useValiValid with reactive state, async validation, trigger, clearErrors, and full TypeScript support",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.mjs",
@@ -12,14 +12,25 @@
       "require": "./dist/cjs/index.js"
     }
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["vue", "vue3", "vali-valid", "validation", "form-validation", "composable", "typescript"],
+  "keywords": [
+    "vue",
+    "vue3",
+    "vali-valid",
+    "validation",
+    "form-validation",
+    "composable",
+    "typescript"
+  ],
   "author": "Felipe Rafael Montenegro Morriberon <teabajo_ubf@hotmail.com>",
   "license": "MIT",
   "homepage": "https://vali-valid.dev/vue",
